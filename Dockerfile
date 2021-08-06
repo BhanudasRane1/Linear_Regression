@@ -12,4 +12,4 @@ COPY mk13.h5 /
 
 COPY markscode.py /
 
-CMD python3 markscode.py
+CMD python3 /markscode.py
