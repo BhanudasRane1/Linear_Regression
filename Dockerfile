@@ -1,7 +1,6 @@
 FROM centos:latest
 
-RUN yum update -y
-RUN yum install python3 -y
+RUN yum install python36 -y
 
 RUN pip3 install numpy
 
