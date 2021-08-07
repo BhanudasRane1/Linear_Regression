@@ -1,4 +1,5 @@
 import joblib 
 mind = joblib.load('marks.pk1')
 a= input("Enter How Many Hours You Study: ")
-print(mind.predict([[a]]))
+b=int(a)
+print(mind.predict([[b]]))
