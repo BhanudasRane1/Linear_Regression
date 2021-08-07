@@ -6,7 +6,7 @@ RUN pip3 install numpy
 
 RUN pip3 install joblib
 
-RUN pip3 install scikit-learn==0.23.1
+RUN pip3 install scikit-learn==0.24.1
 
 COPY marks.pk1 /
 
