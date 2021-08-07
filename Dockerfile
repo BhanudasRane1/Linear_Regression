@@ -6,7 +6,7 @@ RUN pip3 install numpy
 
 RUN pip3 install joblib
 
-RUN pip3 install scikit-learn
+RUN pip3 install scikit-learn==0.23.1
 
 COPY mk13.h5 /
 
